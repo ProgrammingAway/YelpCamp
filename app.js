@@ -5,8 +5,9 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const Campground = require('./models/campground');
 
-mongoose.connect('mongodb://192.168.1.31:27017/yelp-camp', {
-    useNewUrlParser: true,
+//mongoose.connect('mongodb://192.168.1.31:27017/yelp-camp', {
+mongoose.connect('mongodb://192.168.1.32:27017/yelp-camp', {
+        useNewUrlParser: true,
 //    useCreateIndex: true,
     useUnifiedTopology: true
 });
