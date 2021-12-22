@@ -7,7 +7,7 @@ mongoose.connect('mongodb://192.168.1.32:27017/yelp-camp', {
         useNewUrlParser: true,
 //    useCreateIndex: true,
     useUnifiedTopology: true
-});
+}); 
 
 const db = mongoose.connection;
 
